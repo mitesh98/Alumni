@@ -1,0 +1,81 @@
+.logo
+{
+    text-align: left;
+ }
+.logo img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.heading{
+    
+    margin-top: 20px;
+}
+#outerbox
+{
+ width: 250px;
+    overflow:hidden;
+    margin-left: 500px;
+    height: 1400px;
+    
+}
+#sliderbox
+{
+ position: relative;
+    width: 1444px;
+    animation-name: mitesh;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+
+#sliderbox img
+{
+    float: left;
+    align-content: center;
+}
+@keyframes mitesh{
+    0%
+    {
+     left:0px;   
+    }
+    16%
+    {
+        left: 0%
+    }
+    20%
+    {
+        left: -288px;
+    }
+     36%
+    {
+        left: -288px;
+    }
+      40%
+    {
+        left: -534px;
+    }
+      56%
+    {
+        left: -534px;
+    }
+     60%
+    {
+        left: -809px;
+    }
+     76%
+    {
+        left: -809px;
+    }
+      80%
+    {
+        left: -1175px;
+    }
+      96%
+    {
+        left: -1175px;
+    }
+    100%
+    {
+       left: -1444px;
+    }
+}
